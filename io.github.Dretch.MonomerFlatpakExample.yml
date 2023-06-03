@@ -190,13 +190,13 @@ modules:
     sha256: dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9
     type: file
     url: https://hackage.haskell.org/package/random-1.2.1.1/revision/0.cabal
-  - sha256: d87b6c85696b601175274361fa62217894401e401e150c3c5d4013ac53cd36f3
+  - sha256: 5c0f22b36b28a1a8fa110b3819818d3f29494a3b0dedbae299f064123ca70501
     type: file
-    url: https://hackage.haskell.org/package/QuickCheck-2.14.2/QuickCheck-2.14.2.tar.gz
+    url: https://hackage.haskell.org/package/QuickCheck-2.14.3/QuickCheck-2.14.3.tar.gz
   - dest-filename: QuickCheck.cabal
-    sha256: 4ce29211223d5e6620ebceba34a3ca9ccf1c10c0cf387d48aea45599222ee5aa
+    sha256: f03d2f404d5ba465453d0fbc1944832789a759fe7c4f9bf8616bc1378a02fde4
     type: file
-    url: https://hackage.haskell.org/package/QuickCheck-2.14.2/revision/0.cabal
+    url: https://hackage.haskell.org/package/QuickCheck-2.14.3/revision/0.cabal
   - sha256: 6bd950df6b11a3998bb1452d875d2da043ee43385459afc5f16d471d25178b44
     type: file
     url: https://hackage.haskell.org/package/SHA-1.6.4.4/SHA-1.6.4.4.tar.gz
@@ -1016,13 +1016,13 @@ modules:
     sha256: 8372db46f0a5e3c0f426432711d26f54cd111b5a2fd113aa0aa45b1f4705cf2d
     type: file
     url: https://hackage.haskell.org/package/modern-uri-0.3.6.0/revision/1.cabal
-  - sha256: 39e4406a6b6fab679ab335a6643dce6bcc731a692664b1cbbb4f1613f26cbf40
+  - sha256: f81bb0c88f84d8ad626a0d1f48e5e484b5c02386387b50e85e3dba8d5d694139
     type: file
-    url: https://hackage.haskell.org/package/desktop-portal-0.2.0.0/desktop-portal-0.2.0.0.tar.gz
+    url: https://hackage.haskell.org/package/desktop-portal-0.2.1.0/desktop-portal-0.2.1.0.tar.gz
   - dest-filename: desktop-portal.cabal
-    sha256: ff96bfebc204fdc9753353a106c8afd297549b4ac2f6fb7c60571c93ba5c02a9
+    sha256: 879caeaa6565a11620a5be7c81c05814e1ee5969921bda802f6519848ac94643
     type: file
-    url: https://hackage.haskell.org/package/desktop-portal-0.2.0.0/revision/0.cabal
+    url: https://hackage.haskell.org/package/desktop-portal-0.2.1.0/revision/0.cabal
   - sha256: 9ab8bc1f0fa7de356c07b23d7d684b6c3ddfa542fd56ea422fb5fd17000aec64
     type: file
     url: https://hackage.haskell.org/package/double-conversion-2.0.4.2/double-conversion-2.0.4.2.tar.gz
@@ -1135,13 +1135,13 @@ modules:
     sha256: 71a216fdbe4ea02012baf66522adb904be1ebdbb9cea36b009f5c1754dfb2e05
     type: file
     url: https://hackage.haskell.org/package/monomer-hagrid-0.3.0.1/revision/0.cabal
-  - sha256: 873a9013095295db6cc05f9b355475942f5dc9085d2f0d4fa13d9a1eccb25a75
+  - sha256: 8db3630965d8113c2fb2742d6ce5fead5cb6df0d373c037d4205608318c47bb3
     type: file
-    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.8.0/monomer-flatpak-example-0.0.8.0.tar.gz
+    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.9.0/monomer-flatpak-example-0.0.9.0.tar.gz
   - dest-filename: monomer-flatpak-example.cabal
-    sha256: 5b33999d64f41452bc77281d52584460e597072d4a676babadc24c694d96fe52
+    sha256: 702d434d6873fa3d7e4fcb7cf0ab6a9d918f0bca3cef36b53d16ff9b0ac6baf6
     type: file
-    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.8.0/revision/0.cabal
+    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.9.0/revision/0.cabal
 - name: install-desktop-files
   buildsystem: simple
   build-commands:
