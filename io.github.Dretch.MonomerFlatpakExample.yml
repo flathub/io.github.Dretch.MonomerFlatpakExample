@@ -55,7 +55,7 @@ modules:
   - sha256: 2d115b7258751f0e4481e35b5953ca3c7870e8ec9ce68f1d32fc014ddc29b2a5
     type: archive
     url: https://downloads.haskell.org/ghc/9.2.5/ghc-9.2.5-x86_64-deb9-linux.tar.xz
-- name: cabal-install-2.4.1.0-x86_64
+- name: cabal-install-3.10.1.0-x86_64
   only-arches:
   - x86_64
   cleanup:
@@ -65,10 +65,10 @@ modules:
   build-commands:
   - install cabal /app/bin
   sources:
-  - sha256: 6136c189ffccaa39916f9cb5788f757166444a2d0c473b987856a79ecbf0c714
+  - sha256: 2a68b58ac1b7925822d1fbc864bd280a9a2e96ecadc1fe17109b8d7bdbf2ffc2
     strip-components: 0
     type: archive
-    url: https://downloads.haskell.org/cabal/cabal-install-2.4.1.0/cabal-install-2.4.1.0-x86_64-unknown-linux.tar.xz
+    url: https://downloads.haskell.org/cabal/cabal-install-3.10.1.0/cabal-install-3.10.1.0-x86_64-linux-fedora33.tar.xz
 - shared-modules/glu/glu-9.json
 - shared-modules/glew/glew.json
 - name: haskell-parts
@@ -91,7 +91,7 @@ modules:
     EOF2
     chmod +x pkg-config-hack/pkg-config
     export PATH=$(pwd)/pkg-config-hack:$PATH
-    cabal --config-file=.cabal/config install -j1 --offline --prefix=/app *.tar.gz
+    cabal --config-file=.cabal/config v1-install -j1 --offline --prefix=/app *.tar.gz
   sources:
   - commands:
     - tarball="$1"
@@ -754,9 +754,9 @@ modules:
     type: file
     url: https://hackage.haskell.org/package/bytes-0.17.3/bytes-0.17.3.tar.gz
   - dest-filename: bytes.cabal
-    sha256: 30137d823529fdc1ddc7dcf0bdf794af7508780cb65c42830f73de0e40f6fb1b
+    sha256: a249387f089dad1c4b3aafb4ac52386ed1f792b96f5fd6e7a27b6f3ec47445ca
     type: file
-    url: https://hackage.haskell.org/package/bytes-0.17.3/revision/0.cabal
+    url: https://hackage.haskell.org/package/bytes-0.17.3/revision/1.cabal
   - sha256: 27faef6db27c5be5a3715fd68b93725853e0e668849eaf92ce7c33cef9cb2c3f
     type: file
     url: https://hackage.haskell.org/package/bytestring-builder-0.10.8.2.0/bytestring-builder-0.10.8.2.0.tar.gz
@@ -985,9 +985,9 @@ modules:
     type: file
     url: https://hackage.haskell.org/package/lens-5.2.3/lens-5.2.3.tar.gz
   - dest-filename: lens.cabal
-    sha256: d307700ca8b8e3a411b9ac433baa2293df269f32d2ec8122040638f84c356367
+    sha256: 0113eaad7e417dc071a9970a754205b726451717203d2e658bb1f700b8657e2d
     type: file
-    url: https://hackage.haskell.org/package/lens-5.2.3/revision/0.cabal
+    url: https://hackage.haskell.org/package/lens-5.2.3/revision/1.cabal
   - sha256: f9c577238d4ba65fe3e78bc77f0cca54f17d02c0f6075b2487da5c63bdb4a61b
     type: file
     url: https://hackage.haskell.org/package/th-lift-0.8.4/th-lift-0.8.4.tar.gz
@@ -1083,9 +1083,9 @@ modules:
     type: file
     url: https://hackage.haskell.org/package/lens-aeson-1.2.3/lens-aeson-1.2.3.tar.gz
   - dest-filename: lens-aeson.cabal
-    sha256: 6601e1d1f5b68f148fc67964a92a5a2f10c52d85b8d950b18bbda56f94117ec0
+    sha256: 5a733b4b5ac8e17d1e89704441597e9eb6e01e54ba86e5ecfbeaced9b28c82d7
     type: file
-    url: https://hackage.haskell.org/package/lens-aeson-1.2.3/revision/1.cabal
+    url: https://hackage.haskell.org/package/lens-aeson-1.2.3/revision/2.cabal
   - sha256: cfe43e392d0e9b2fd5647bde962b0678681de580260ad30e5f29ae490a03b9b5
     type: file
     url: https://hackage.haskell.org/package/linear-1.22/linear-1.22.tar.gz
@@ -1111,9 +1111,9 @@ modules:
     type: file
     url: https://hackage.haskell.org/package/text-show-3.10.4/text-show-3.10.4.tar.gz
   - dest-filename: text-show.cabal
-    sha256: ca2f48757b0185a456312a7d73d95f63608a85e54c30dfd7506666df63cf355a
+    sha256: 4a1c2f04d40df99a0f619dbf501ab0de52eb3ffcffded99a891688aa42d98529
     type: file
-    url: https://hackage.haskell.org/package/text-show-3.10.4/revision/0.cabal
+    url: https://hackage.haskell.org/package/text-show-3.10.4/revision/1.cabal
   - sha256: d09750ba3578d905b54d0b3a60a7b468910a60b3165e5de98bf6f4efae3ebfb2
     type: file
     url: https://hackage.haskell.org/package/psqueues-0.2.7.3/psqueues-0.2.7.3.tar.gz
