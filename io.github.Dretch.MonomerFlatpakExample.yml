@@ -932,13 +932,13 @@ modules:
     sha256: 67898b0e53e878876150f279f092f44d9b6ae192be90534f9898976b0eae8ce1
     type: file
     url: https://hackage.haskell.org/package/unix-time-0.4.10/revision/0.cabal
-  - sha256: 4a8486df3f1bd865753e7ac5f89bb252401fb91c8350226285e1075a78919808
+  - sha256: 5605b9cbe0903b100e9de72800641453f74bf5dade6176dbe10b34ac9353433e
     type: file
-    url: https://hackage.haskell.org/package/tls-1.8.0/tls-1.8.0.tar.gz
+    url: https://hackage.haskell.org/package/tls-1.9.0/tls-1.9.0.tar.gz
   - dest-filename: tls.cabal
-    sha256: 0ea435fb1969384c76e6b6ba49c509cec55eec29f60dd2c335151d9c8a4e8b4f
+    sha256: 8ad332dc0224decb1b137bf6c9678b4f786487b9aaa5c9068cd3ad19d42c39a7
     type: file
-    url: https://hackage.haskell.org/package/tls-1.8.0/revision/0.cabal
+    url: https://hackage.haskell.org/package/tls-1.9.0/revision/0.cabal
   - sha256: 03073694f6525f975db78dbc67c34e89bb27b95cf863d4a3a77dc6ef49d81dcc
     type: file
     url: https://hackage.haskell.org/package/crypton-connection-0.3.1/crypton-connection-0.3.1.tar.gz
@@ -1037,13 +1037,13 @@ modules:
     sha256: e2d4b8091a1c6030c6a55b21a179fa177ff98a9af32ba596c6b909c9689d38a0
     type: file
     url: https://hackage.haskell.org/package/modern-uri-0.3.6.1/revision/0.cabal
-  - sha256: 5b8cd4c4d536b84b4823c7b62a2466f1545edc9df7f6253ec430bd341b1e2670
+  - sha256: 0e53474d9c4f1aa5213b5fa5835d19294015c5520d71b4bb65b5bc500945f902
     type: file
-    url: https://hackage.haskell.org/package/desktop-portal-0.3.0.0/desktop-portal-0.3.0.0.tar.gz
+    url: https://hackage.haskell.org/package/desktop-portal-0.3.1.0/desktop-portal-0.3.1.0.tar.gz
   - dest-filename: desktop-portal.cabal
-    sha256: e1ad5231f64ed73507f0d660425181b56d9204d27b928c0893875d7506b89f4d
+    sha256: b02f908180ea97810bf64bbbd3dbc8717c4a357f72f3e7edd638acd87dd3540a
     type: file
-    url: https://hackage.haskell.org/package/desktop-portal-0.3.0.0/revision/0.cabal
+    url: https://hackage.haskell.org/package/desktop-portal-0.3.1.0/revision/0.cabal
   - sha256: 9ab8bc1f0fa7de356c07b23d7d684b6c3ddfa542fd56ea422fb5fd17000aec64
     type: file
     url: https://hackage.haskell.org/package/double-conversion-2.0.4.2/double-conversion-2.0.4.2.tar.gz
@@ -1149,13 +1149,13 @@ modules:
     sha256: 49a2a817d1a97ac8c7493bc1828fa4af6303779f7a71022ddc1b42f4b638bf5d
     type: file
     url: https://hackage.haskell.org/package/monomer-hagrid-0.3.1.0/revision/0.cabal
-  - sha256: 6e7fa60e59d6ffaf51c8421a75dd03e1413157fc7c0ca00b600e8260d64b5b17
+  - sha256: d38b3916d0c65afb2f91c7879228051d72c3217b073a382fb35acb0c63dabba0
     type: file
-    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.11.0/monomer-flatpak-example-0.0.11.0.tar.gz
+    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.12.0/monomer-flatpak-example-0.0.12.0.tar.gz
   - dest-filename: monomer-flatpak-example.cabal
-    sha256: 4e0690bffed5a6e14faa99d6b2644cd09e3aa89591e98b9495cf46c30c5a3e2e
+    sha256: fff1a3e88c0e159c57bbd94969403ccc4d4f4ccef89fcbda1161afeaf8a9ab05
     type: file
-    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.11.0/revision/0.cabal
+    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.12.0/revision/0.cabal
 - name: install-desktop-files
   buildsystem: simple
   build-commands:
