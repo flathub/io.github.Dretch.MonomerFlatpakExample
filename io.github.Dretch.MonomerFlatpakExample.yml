@@ -106,6 +106,76 @@ modules:
     - gzip "$pkgid.tar"
     dest-filename: revise.sh
     type: script
+  - sha256: 043a323d506c37e6c71e822f54bca11631c86919d02bc414940935700bfc5c8d
+    type: file
+    url: https://hackage.haskell.org/package/bytestring-0.11.5.2/bytestring-0.11.5.2.tar.gz
+  - dest-filename: bytestring.cabal
+    sha256: 446ad0a558ee7efcb0aeebfe147bf3897c50241231a9131ff7d7d24f2c3c1f2f
+    type: file
+    url: https://hackage.haskell.org/package/bytestring-0.11.5.2/revision/0.cabal
+  - sha256: 2247af69fab1c9c48d3b7e184f18b63d12d273572a7f55319c0d6fae896de1e1
+    type: file
+    url: https://hackage.haskell.org/package/containers-0.6.8/containers-0.6.8.tar.gz
+  - dest-filename: containers.cabal
+    sha256: bb2bec1bbc6b39a7c97cd95e056a5698ec45beb5d8feb6caae12af64e4bd823c
+    type: file
+    url: https://hackage.haskell.org/package/containers-0.6.8/revision/0.cabal
+  - sha256: ac21ca63452dfc9b0bcab87c57699c531d87f7a9bcb6230ca46fba1b7faeebc0
+    type: file
+    url: https://hackage.haskell.org/package/binary-0.8.9.1/binary-0.8.9.1.tar.gz
+  - dest-filename: binary.cabal
+    sha256: 81f468c1c75fd6535152ab69b2d32ac6cfcc03e345267b069abe4da56ec95801
+    type: file
+    url: https://hackage.haskell.org/package/binary-0.8.9.1/revision/0.cabal
+  - sha256: 4625c2916545678e20715c4a043e002a4511fc301b4791cc8e7b33c317c42f30
+    type: file
+    url: https://hackage.haskell.org/package/unix-2.7.3/unix-2.7.3.tar.gz
+  - dest-filename: unix.cabal
+    sha256: 20079c504d0ca33fbf11de3a215d25220c8d43499a93049a8f2791323f3bd57b
+    type: file
+    url: https://hackage.haskell.org/package/unix-2.7.3/revision/0.cabal
+  - sha256: dc2785d6548cec2e80700fab007d3e9467f65d3c58ab3efa21b34d9017cf0efd
+    type: file
+    url: https://hackage.haskell.org/package/directory-1.3.7.1/directory-1.3.7.1.tar.gz
+  - dest-filename: directory.cabal
+    sha256: 7d16bf127fb303bd69d9c433bb146c5815f9690933af1d5a6ee45dea2e536dc5
+    type: file
+    url: https://hackage.haskell.org/package/directory-1.3.7.1/revision/1.cabal
+  - sha256: c735be650a898606ce9f2c8642bc6ac6123eea82871d5e90f92797801f59efad
+    type: file
+    url: https://hackage.haskell.org/package/text-2.0.2/text-2.0.2.tar.gz
+  - dest-filename: text.cabal
+    sha256: 71b5fa8c64d3c1fd0a08f993463220867b08290a2256e94b0952bf0e8f5a45cc
+    type: file
+    url: https://hackage.haskell.org/package/text-2.0.2/revision/1.cabal
+  - sha256: 58c500bec1ec3c849c8243ddfd675a5983b17a8e5da55acea6adade5ae179d36
+    type: file
+    url: https://hackage.haskell.org/package/parsec-3.1.17.0/parsec-3.1.17.0.tar.gz
+  - dest-filename: parsec.cabal
+    sha256: 6cf18e59d9f1c5b40385457b82ab679dc18d3c5bd3c2c67b2f94e1e8732e6624
+    type: file
+    url: https://hackage.haskell.org/package/parsec-3.1.17.0/revision/0.cabal
+  - sha256: 3b80092355327768a0de8298ac50ee906b7e82462e2ba14542730573b453f522
+    type: file
+    url: https://hackage.haskell.org/package/Cabal-syntax-3.10.1.0/Cabal-syntax-3.10.1.0.tar.gz
+  - dest-filename: Cabal-syntax.cabal
+    sha256: bb835ebab577fd0f9c11dab96210dbb8d68ffc62652576f4b092563c345930e7
+    type: file
+    url: https://hackage.haskell.org/package/Cabal-syntax-3.10.1.0/revision/0.cabal
+  - sha256: aa5f4c4fe4974f89f5ab998c7509daa4bda3926cfb06daacd5eba892aad8a37e
+    type: file
+    url: https://hackage.haskell.org/package/process-1.6.18.0/process-1.6.18.0.tar.gz
+  - dest-filename: process.cabal
+    sha256: cd0a3e0376b5a8525983d3131a31e52f9ffefc278ce635eec45a9d3987b8be3e
+    type: file
+    url: https://hackage.haskell.org/package/process-1.6.18.0/revision/0.cabal
+  - sha256: 0bdbab8e4c3178016fb0f070d8b62bc3067f93afabfbd3aa17c8065d0ecc98ee
+    type: file
+    url: https://hackage.haskell.org/package/Cabal-3.10.1.0/Cabal-3.10.1.0.tar.gz
+  - dest-filename: Cabal.cabal
+    sha256: 6d11adf7847d9734e7b02785ff831b5a0d11536bfbcefd6634b2b08411c63c94
+    type: file
+    url: https://hackage.haskell.org/package/Cabal-3.10.1.0/revision/0.cabal
   - sha256: 1bb6eca0b3e02d057fe7f4e14c81ef395216f421ab30fdaa1b18017c9c025600
     type: file
     url: https://hackage.haskell.org/package/data-array-byte-0.1.0.1/data-array-byte-0.1.0.1.tar.gz
@@ -344,13 +414,13 @@ modules:
     sha256: 56d0fd1c17aaf6268e81bf19ba5afe186128d7f88126bd546d5b3151ab692652
     type: file
     url: https://hackage.haskell.org/package/assoc-1.1/revision/1.cabal
-  - sha256: 8258dc3ab7188af5826e2467032b52a931a3af4d8a93d4a094210e240a8a9964
+  - sha256: 69ea6eca1f0c00b6e1e1f8329c908ec76e73855e2ce6e91ace2f8bbf92c51a30
     type: file
-    url: https://hackage.haskell.org/package/th-abstraction-0.5.0.0/th-abstraction-0.5.0.0.tar.gz
+    url: https://hackage.haskell.org/package/th-abstraction-0.6.0.0/th-abstraction-0.6.0.0.tar.gz
   - dest-filename: th-abstraction.cabal
-    sha256: 4351cadf6bf0ca80c90225bae0b12f4cfdd550f30c333b050186af5a8bc19457
+    sha256: d8959fa6a2812afcdd5f6f255fd6be8b3e0ca01e425586a554544fcb70b0ec7c
     type: file
-    url: https://hackage.haskell.org/package/th-abstraction-0.5.0.0/revision/0.cabal
+    url: https://hackage.haskell.org/package/th-abstraction-0.6.0.0/revision/1.cabal
   - sha256: 06381471b5be16516a1b2c4b21a5101a3d991038bface8e0cad144c0044d57fc
     type: file
     url: https://hackage.haskell.org/package/bifunctors-5.6.1/bifunctors-5.6.1.tar.gz
@@ -421,41 +491,6 @@ modules:
     sha256: 30206ae6b78d3d523c2ff73640f84b51fa204ac3f05267a5f0c77c486b96781d
     type: file
     url: https://hackage.haskell.org/package/adjunctions-4.4.2/revision/2.cabal
-  - sha256: 9b0a9f9fab609b15cd015865721fb05f744a1bc77ae92fd133872de528bbea7f
-    type: file
-    url: https://hackage.haskell.org/package/integer-logarithms-1.0.3.1/integer-logarithms-1.0.3.1.tar.gz
-  - dest-filename: integer-logarithms.cabal
-    sha256: 4d0dfc334e64ff57bb1a08717afa4a4a7f28e4cdc46615dd287be31ef63ec00d
-    type: file
-    url: https://hackage.haskell.org/package/integer-logarithms-1.0.3.1/revision/5.cabal
-  - sha256: a3a121c4b3d68fb8b9f8c709ab012e48f090ed553609247a805ad070d6b343a9
-    type: file
-    url: https://hackage.haskell.org/package/scientific-0.3.7.0/scientific-0.3.7.0.tar.gz
-  - dest-filename: scientific.cabal
-    sha256: 08144d855b36064bca2e047392dd41bfd2a5cb7c8abc9c713cef03a1d06599b2
-    type: file
-    url: https://hackage.haskell.org/package/scientific-0.3.7.0/revision/6.cabal
-  - sha256: 3f337fe58624565de12426f607c23e60c7b09c86b4e3adfc827ca188c9979e6c
-    type: file
-    url: https://hackage.haskell.org/package/attoparsec-0.14.4/attoparsec-0.14.4.tar.gz
-  - dest-filename: attoparsec.cabal
-    sha256: 6a193f133311af59ce5a0c2fc4bd9574c222794f5d772bc4cf4ffa6e73d2581f
-    type: file
-    url: https://hackage.haskell.org/package/attoparsec-0.14.4/revision/4.cabal
-  - sha256: 8bf66075da849a037974a7feb9d7ecd81ce57e4522a0df40daf11db14fcea30d
-    type: file
-    url: https://hackage.haskell.org/package/base-compat-0.13.0/base-compat-0.13.0.tar.gz
-  - dest-filename: base-compat.cabal
-    sha256: 5ebd0e68acc0de64a945bf0bebcd39d4869a4ea3618cdd5ec639aac527bf599e
-    type: file
-    url: https://hackage.haskell.org/package/base-compat-0.13.0/revision/0.cabal
-  - sha256: 3768af40d1d64f9b0845a8ddb18e63ba3a4c765d0d96db9dc28b5b66d1232f98
-    type: file
-    url: https://hackage.haskell.org/package/base-compat-batteries-0.13.0/base-compat-batteries-0.13.0.tar.gz
-  - dest-filename: base-compat-batteries.cabal
-    sha256: bc348124f46ed073989389d3c91e21d4d595db76a1fa975665c84229a7332e28
-    type: file
-    url: https://hackage.haskell.org/package/base-compat-batteries-0.13.0/revision/0.cabal
   - sha256: 3a172d3bc0639c327345e965f9d9023e099425814b28dcdb7b60ff66d66219cc
     type: file
     url: https://hackage.haskell.org/package/data-fix-0.3.2/data-fix-0.3.2.tar.gz
@@ -477,6 +512,41 @@ modules:
     sha256: 378ec049bc2853b8011df116647fbd34bb9f00edce9840e4957f98abc097597c
     type: file
     url: https://hackage.haskell.org/package/generically-0.1.1/revision/2.cabal
+  - sha256: 20ac70cf1cb65458bba2c562c209a8930e45bdb89886182d644d0a457fc46f39
+    type: file
+    url: https://hackage.haskell.org/package/integer-conversion-0.1.0.1/integer-conversion-0.1.0.1.tar.gz
+  - dest-filename: integer-conversion.cabal
+    sha256: 2de660070568d7c3bd053a8908eee0b4242aefd58864b471bebdd00a0e6d8adf
+    type: file
+    url: https://hackage.haskell.org/package/integer-conversion-0.1.0.1/revision/0.cabal
+  - sha256: 9b0a9f9fab609b15cd015865721fb05f744a1bc77ae92fd133872de528bbea7f
+    type: file
+    url: https://hackage.haskell.org/package/integer-logarithms-1.0.3.1/integer-logarithms-1.0.3.1.tar.gz
+  - dest-filename: integer-logarithms.cabal
+    sha256: 4d0dfc334e64ff57bb1a08717afa4a4a7f28e4cdc46615dd287be31ef63ec00d
+    type: file
+    url: https://hackage.haskell.org/package/integer-logarithms-1.0.3.1/revision/5.cabal
+  - sha256: d8f97ac14ab47b6b8a7b0fdb4ff95426322ec56badd01652ac15da4a44d4bab8
+    type: file
+    url: https://hackage.haskell.org/package/th-compat-0.1.4/th-compat-0.1.4.tar.gz
+  - dest-filename: th-compat.cabal
+    sha256: 3e7d1b8f9c72cab04c8dfdfd26589dd7f31e015ad640a207aca3b654577532ff
+    type: file
+    url: https://hackage.haskell.org/package/th-compat-0.1.4/revision/3.cabal
+  - sha256: 9c188973126e893250b881f20e8811dca06c223c23402b06f7a1f2e995797228
+    type: file
+    url: https://hackage.haskell.org/package/network-uri-2.6.4.2/network-uri-2.6.4.2.tar.gz
+  - dest-filename: network-uri.cabal
+    sha256: 1fde59abf5d82a9666b4415bc2b2e9e33f6c1309074fda12d50410c7dbd95f3b
+    type: file
+    url: https://hackage.haskell.org/package/network-uri-2.6.4.2/revision/0.cabal
+  - sha256: a3a121c4b3d68fb8b9f8c709ab012e48f090ed553609247a805ad070d6b343a9
+    type: file
+    url: https://hackage.haskell.org/package/scientific-0.3.7.0/scientific-0.3.7.0.tar.gz
+  - dest-filename: scientific.cabal
+    sha256: 08144d855b36064bca2e047392dd41bfd2a5cb7c8abc9c713cef03a1d06599b2
+    type: file
+    url: https://hackage.haskell.org/package/scientific-0.3.7.0/revision/6.cabal
   - sha256: 0f9b4e895ccc819f74d15f913c93613cc74cab74dbb05d7e305aa387bdbe374a
     type: file
     url: https://hackage.haskell.org/package/indexed-traversable-instances-0.1.1.2/indexed-traversable-instances-0.1.1.2.tar.gz
@@ -505,13 +575,6 @@ modules:
     sha256: bd57d7b3655951dfaa7d1e1374d7352dfe83f82a9c98309bf3a6587ef8cbd87d
     type: file
     url: https://hackage.haskell.org/package/strict-0.5/revision/1.cabal
-  - sha256: a35ec6cde2ada084c1a050dc5885be5ab01f851b93d744cf0facbc1c18002dda
-    type: file
-    url: https://hackage.haskell.org/package/text-short-0.1.5/text-short-0.1.5.tar.gz
-  - dest-filename: text-short.cabal
-    sha256: 9c73c9c9182ca69ee92ce3758f515b1c078cd167d882ccc8c46f92f68c65e190
-    type: file
-    url: https://hackage.haskell.org/package/text-short-0.1.5/revision/3.cabal
   - sha256: ad07bb00eb9678c2136d3680752b00acc4cbc522654bb3199bf31c61ef1e6b80
     type: file
     url: https://hackage.haskell.org/package/time-compat-1.9.6.1/time-compat-1.9.6.1.tar.gz
@@ -519,6 +582,20 @@ modules:
     sha256: 17631ef01a03a6f55fbe131690f87f6dee9a1572acc99b6c06f04882470ffb52
     type: file
     url: https://hackage.haskell.org/package/time-compat-1.9.6.1/revision/6.cabal
+  - sha256: f58e7a46f951f1f13d2929e0a2f84f6db7894d55a641169aaf300aea9ada5fcf
+    type: file
+    url: https://hackage.haskell.org/package/text-iso8601-0.1/text-iso8601-0.1.tar.gz
+  - dest-filename: text-iso8601.cabal
+    sha256: ac86f2500ca751db3c0de029dd7e7826bef7366d59dc0085b00fc695c43b9f76
+    type: file
+    url: https://hackage.haskell.org/package/text-iso8601-0.1/revision/1.cabal
+  - sha256: a35ec6cde2ada084c1a050dc5885be5ab01f851b93d744cf0facbc1c18002dda
+    type: file
+    url: https://hackage.haskell.org/package/text-short-0.1.5/text-short-0.1.5.tar.gz
+  - dest-filename: text-short.cabal
+    sha256: 9c73c9c9182ca69ee92ce3758f515b1c078cd167d882ccc8c46f92f68c65e190
+    type: file
+    url: https://hackage.haskell.org/package/text-short-0.1.5/revision/3.cabal
   - sha256: 0bec6d6982b3c92bfa5eab1d213be2d4b6696b9a2c3a1f1f05812dc3762dca2c
     type: file
     url: https://hackage.haskell.org/package/uuid-types-1.0.5.1/uuid-types-1.0.5.1.tar.gz
@@ -533,13 +610,13 @@ modules:
     sha256: cec516b35df0ff53ab0068e70a912a0ba7b65c672fbc554727183faa195ad3b8
     type: file
     url: https://hackage.haskell.org/package/witherable-0.4.2/revision/4.cabal
-  - sha256: 5d4042b903ce181ee023bbf908f37a3f55e820c5f0df102683b87f963e3522c6
+  - sha256: 914eefd0e80d12db5c721daa2cbab427acee39795f125c5460c1fe48cf9a5d7f
     type: file
-    url: https://hackage.haskell.org/package/aeson-2.1.2.1/aeson-2.1.2.1.tar.gz
+    url: https://hackage.haskell.org/package/aeson-2.2.1.0/aeson-2.2.1.0.tar.gz
   - dest-filename: aeson.cabal
-    sha256: 5b8d62a60963a925c4d123a46e42a8e235a32188522c9f119f64ac228c2612a7
+    sha256: 5b8409e2df062088a83a1777263c7d5b5b5870bc4b40d218e1ecc7b560f28485
     type: file
-    url: https://hackage.haskell.org/package/aeson-2.1.2.1/revision/3.cabal
+    url: https://hackage.haskell.org/package/aeson-2.2.1.0/revision/0.cabal
   - sha256: 7a1cd4e21399c40ea9372d1c03bf38698944b8437ce95cf27d1a7c262babe38e
     type: file
     url: https://hackage.haskell.org/package/alex-3.4.0.0/alex-3.4.0.0.tar.gz
@@ -568,6 +645,13 @@ modules:
     sha256: 46367dc0c8326dcbeb7b93f200b567491c2f6029bccf822b8bb26ee660397e08
     type: file
     url: https://hackage.haskell.org/package/async-2.2.4/revision/3.cabal
+  - sha256: 3f337fe58624565de12426f607c23e60c7b09c86b4e3adfc827ca188c9979e6c
+    type: file
+    url: https://hackage.haskell.org/package/attoparsec-0.14.4/attoparsec-0.14.4.tar.gz
+  - dest-filename: attoparsec.cabal
+    sha256: 6a193f133311af59ce5a0c2fc4bd9574c222794f5d772bc4cf4ffa6e73d2581f
+    type: file
+    url: https://hackage.haskell.org/package/attoparsec-0.14.4/revision/4.cabal
   - sha256: fbf8ed30edde271eb605352021431d8f1b055f95a56af31fe2eacf6bdfdc49c9
     type: file
     url: https://hackage.haskell.org/package/base64-bytestring-1.2.1.0/base64-bytestring-1.2.1.0.tar.gz
@@ -680,20 +764,6 @@ modules:
     sha256: c68f421c569e325ec4c5595a6916cc6336cf11c7f11bc569a62c6a32214454ad
     type: file
     url: https://hackage.haskell.org/package/mime-types-0.1.1.0/revision/0.cabal
-  - sha256: d8f97ac14ab47b6b8a7b0fdb4ff95426322ec56badd01652ac15da4a44d4bab8
-    type: file
-    url: https://hackage.haskell.org/package/th-compat-0.1.4/th-compat-0.1.4.tar.gz
-  - dest-filename: th-compat.cabal
-    sha256: 3e7d1b8f9c72cab04c8dfdfd26589dd7f31e015ad640a207aca3b654577532ff
-    type: file
-    url: https://hackage.haskell.org/package/th-compat-0.1.4/revision/3.cabal
-  - sha256: 9c188973126e893250b881f20e8811dca06c223c23402b06f7a1f2e995797228
-    type: file
-    url: https://hackage.haskell.org/package/network-uri-2.6.4.2/network-uri-2.6.4.2.tar.gz
-  - dest-filename: network-uri.cabal
-    sha256: 1fde59abf5d82a9666b4415bc2b2e9e33f6c1309074fda12d50410c7dbd95f3b
-    type: file
-    url: https://hackage.haskell.org/package/network-uri-2.6.4.2/revision/0.cabal
   - sha256: 0180958a882eb0f6262b812fe886c2b1b8285474b5b958f814ae4f05409fbf79
     type: file
     url: https://hackage.haskell.org/package/streaming-commons-0.2.2.6/streaming-commons-0.2.2.6.tar.gz
@@ -715,6 +785,20 @@ modules:
     sha256: af2b03698756b2bbb42b8d30236b4d012e31db2b7ce63753158f63d5b0a81da5
     type: file
     url: https://hackage.haskell.org/package/authenticate-oauth-1.7/revision/1.cabal
+  - sha256: 8bf66075da849a037974a7feb9d7ecd81ce57e4522a0df40daf11db14fcea30d
+    type: file
+    url: https://hackage.haskell.org/package/base-compat-0.13.0/base-compat-0.13.0.tar.gz
+  - dest-filename: base-compat.cabal
+    sha256: 5ebd0e68acc0de64a945bf0bebcd39d4869a4ea3618cdd5ec639aac527bf599e
+    type: file
+    url: https://hackage.haskell.org/package/base-compat-0.13.0/revision/0.cabal
+  - sha256: 3768af40d1d64f9b0845a8ddb18e63ba3a4c765d0d96db9dc28b5b66d1232f98
+    type: file
+    url: https://hackage.haskell.org/package/base-compat-batteries-0.13.0/base-compat-batteries-0.13.0.tar.gz
+  - dest-filename: base-compat-batteries.cabal
+    sha256: bc348124f46ed073989389d3c91e21d4d595db76a1fa975665c84229a7332e28
+    type: file
+    url: https://hackage.haskell.org/package/base-compat-batteries-0.13.0/revision/0.cabal
   - sha256: 1d5a91143ef0e22157536093ec8e59d226a68220ec89378d5dcaeea86472c784
     type: file
     url: https://hackage.haskell.org/package/base16-bytestring-1.0.2.0/base16-bytestring-1.0.2.0.tar.gz
@@ -1149,13 +1233,13 @@ modules:
     sha256: 3f1977428fa9a022a57f5622dfcf083a380bd478a5e719c99dc3f6a0fb6e337a
     type: file
     url: https://hackage.haskell.org/package/monomer-hagrid-0.3.1.1/revision/0.cabal
-  - sha256: 992a8459a337c0f6c34e2ad664d249b35071ee0856309d7d86aa5017175340da
+  - sha256: 0a8f7a255efdd84a59a21bb49f2fc81e13830b4317edfa09eb49e733a2bc76d2
     type: file
-    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.13.0/monomer-flatpak-example-0.0.13.0.tar.gz
+    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.13.1/monomer-flatpak-example-0.0.13.1.tar.gz
   - dest-filename: monomer-flatpak-example.cabal
-    sha256: 099a3b9889f9866efc0eab5ed2edfc84d6c7ece3823ea575fb0f056a75c8a1ec
+    sha256: e0ddca1e163220b92f6e6901f34b437166ac4f577fbbccbdc4eb6fef47c12257
     type: file
-    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.13.0/revision/0.cabal
+    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.13.1/revision/0.cabal
 - name: install-desktop-files
   buildsystem: simple
   build-commands:
