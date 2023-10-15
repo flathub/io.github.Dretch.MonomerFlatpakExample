@@ -93,7 +93,7 @@ modules:
     EOF2
     chmod +x pkg-config-hack/pkg-config
     export PATH=$(pwd)/pkg-config-hack:$PATH
-    cabal --config-file=.cabal/config install -j32 --install-method=symlink --installdir=/app/bin monomer-flatpak-example
+    cabal --config-file=.cabal/config install -j16 --install-method=symlink --installdir=/app/bin monomer-flatpak-example
     find /app/cabal/ghc-* -mindepth 1 -not -path '*/monomer-flatpak-example*' -a -not -path '*/incoming' -delete
   sources:
   - sha256: 5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f
