@@ -93,16 +93,16 @@ modules:
     EOF2
     chmod +x pkg-config-hack/pkg-config
     export PATH=$(pwd)/pkg-config-hack:$PATH
-    cabal --config-file=.cabal/config install -j22 --install-method=symlink --installdir=/app/bin monomer-flatpak-example
+    cabal --config-file=.cabal/config install -j16 --install-method=symlink --installdir=/app/bin monomer-flatpak-example
     find /app/cabal/ghc-* -mindepth 1 -not -path '*/monomer-flatpak-example*' -a -not -path '*/incoming' -delete
   sources:
-  - sha256: 5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f
+  - sha256: 696d4bd291c94d736142d6182117dca4258d3ef28bfefdb649ac8b5ecd0999c7
     type: file
-    url: https://hackage.haskell.org/package/primitive-0.8.0.0/primitive-0.8.0.0.tar.gz
-  - dest-filename: primitive-0.8.0.0.cabal
-    sha256: d0ff45fa6e61f92af23611ceb8b9a6a04c236b50fb70c60e2ed3bfa532703670
+    url: https://hackage.haskell.org/package/primitive-0.9.0.0/primitive-0.9.0.0.tar.gz
+  - dest-filename: primitive-0.9.0.0.cabal
+    sha256: 1ceb39f67c0e614180f2992a6d30f26603ab2cd23c4f8e25b30213f98807f6f1
     type: file
-    url: https://hackage.haskell.org/package/primitive-0.8.0.0/revision/1.cabal
+    url: https://hackage.haskell.org/package/primitive-0.9.0.0/revision/0.cabal
   - sha256: a888210f6467f155090653734be5cc920406a07227e0d3adb59096716fdb806c
     type: file
     url: https://hackage.haskell.org/package/vector-stream-0.1.0.0/vector-stream-0.1.0.0.tar.gz
@@ -429,9 +429,9 @@ modules:
     type: file
     url: https://hackage.haskell.org/package/integer-conversion-0.1.0.1/integer-conversion-0.1.0.1.tar.gz
   - dest-filename: integer-conversion-0.1.0.1.cabal
-    sha256: 2de660070568d7c3bd053a8908eee0b4242aefd58864b471bebdd00a0e6d8adf
+    sha256: 0e57a82635323f015b5d6c242bcfbbeeaa9854fe9c8058e57052254dbb24bb14
     type: file
-    url: https://hackage.haskell.org/package/integer-conversion-0.1.0.1/revision/0.cabal
+    url: https://hackage.haskell.org/package/integer-conversion-0.1.0.1/revision/1.cabal
   - sha256: 9b0a9f9fab609b15cd015865721fb05f744a1bc77ae92fd133872de528bbea7f
     type: file
     url: https://hackage.haskell.org/package/integer-logarithms-1.0.3.1/integer-logarithms-1.0.3.1.tar.gz
@@ -527,9 +527,9 @@ modules:
     type: file
     url: https://hackage.haskell.org/package/aeson-2.2.1.0/aeson-2.2.1.0.tar.gz
   - dest-filename: aeson-2.2.1.0.cabal
-    sha256: 5b8409e2df062088a83a1777263c7d5b5b5870bc4b40d218e1ecc7b560f28485
+    sha256: a23a61aada8233e10573e1612c0b2efe5a1aba0d59b05dbe2f63301822f136cb
     type: file
-    url: https://hackage.haskell.org/package/aeson-2.2.1.0/revision/0.cabal
+    url: https://hackage.haskell.org/package/aeson-2.2.1.0/revision/1.cabal
   - sha256: 7a1cd4e21399c40ea9372d1c03bf38698944b8437ce95cf27d1a7c262babe38e
     type: file
     url: https://hackage.haskell.org/package/alex-3.4.0.0/alex-3.4.0.0.tar.gz
@@ -670,13 +670,13 @@ modules:
     sha256: 85d181599fab8ceebf4c849110ad571bea2834d6c8c95ae7da33856c42453f40
     type: file
     url: https://hackage.haskell.org/package/iproute-1.7.12/revision/0.cabal
-  - sha256: ebd01ed4e37142cb3233d4ffe55fe879b64d4a0b5802c8bc6afa1c7670f9e11b
+  - sha256: 013ae48a4c1726a4f91a64e882f3fe1fb903a7d4b8c14da51286fe5e4b974f61
     type: file
-    url: https://hackage.haskell.org/package/mime-types-0.1.1.0/mime-types-0.1.1.0.tar.gz
-  - dest-filename: mime-types-0.1.1.0.cabal
-    sha256: c68f421c569e325ec4c5595a6916cc6336cf11c7f11bc569a62c6a32214454ad
+    url: https://hackage.haskell.org/package/mime-types-0.1.2.0/mime-types-0.1.2.0.tar.gz
+  - dest-filename: mime-types-0.1.2.0.cabal
+    sha256: 3ddd330c16da943651db37e237d44dc0593ef9b1a63d39e98a48811644615bf6
     type: file
-    url: https://hackage.haskell.org/package/mime-types-0.1.1.0/revision/0.cabal
+    url: https://hackage.haskell.org/package/mime-types-0.1.2.0/revision/0.cabal
   - sha256: 0180958a882eb0f6262b812fe886c2b1b8285474b5b958f814ae4f05409fbf79
     type: file
     url: https://hackage.haskell.org/package/streaming-commons-0.2.2.6/streaming-commons-0.2.2.6.tar.gz
@@ -1024,9 +1024,9 @@ modules:
     type: file
     url: https://hackage.haskell.org/package/megaparsec-9.5.0/megaparsec-9.5.0.tar.gz
   - dest-filename: megaparsec-9.5.0.cabal
-    sha256: 32faeaf4e91513f16ac8edee08b351365c90aba39e3bc945b671324572c3d6c8
+    sha256: a5bc9928c817f3c41c3f4c757103f9baafa8c9d3cdf5295926c34e147801cf38
     type: file
-    url: https://hackage.haskell.org/package/megaparsec-9.5.0/revision/3.cabal
+    url: https://hackage.haskell.org/package/megaparsec-9.5.0/revision/4.cabal
   - sha256: 0246f9cfced1227abe3a6403eeacc6b5f79f7e3319759a4dd1fd341c12454fe9
     type: file
     url: https://hackage.haskell.org/package/modern-uri-0.3.6.1/modern-uri-0.3.6.1.tar.gz
