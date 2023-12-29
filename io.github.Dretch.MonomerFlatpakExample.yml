@@ -1153,13 +1153,13 @@ modules:
     sha256: 63d1ad0221f40c67a0d9bfd9ea032743a4281f697ae71f8fa61608c0a3565ae4
     type: file
     url: https://hackage.haskell.org/package/monomer-hagrid-0.3.1.2/revision/0.cabal
-  - sha256: 8b672d6996a16ced6542668423d8f82f1a769fdbac7180835923a38bcd150ee3
+  - sha256: 02123b115a54e24d9b30bf498a53b2009deedfd9052108a9be52254bac492e2c
     type: file
-    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.15.1/monomer-flatpak-example-0.0.15.1.tar.gz
-  - dest-filename: monomer-flatpak-example-0.0.15.1.cabal
-    sha256: f4af22ad379298922962c227986a4b585cc571c71fed43efdfab8d1ac59776c4
+    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.15.2/monomer-flatpak-example-0.0.15.2.tar.gz
+  - dest-filename: monomer-flatpak-example-0.0.15.2.cabal
+    sha256: a3cdb4f8a15268f37c82f7887e7f77267c02d6d63715f379015276fc00ba8da1
     type: file
-    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.15.1/revision/0.cabal
+    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.15.2/revision/0.cabal
 - name: install-desktop-files
   buildsystem: simple
   build-commands:
