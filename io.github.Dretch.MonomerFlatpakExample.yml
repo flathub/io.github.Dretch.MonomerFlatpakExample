@@ -80,7 +80,7 @@ modules:
   - mkdir .cabal
   - 'printf "store-dir: /app/cabal\nrepository local-repo\n  url: file+noindex://$PWD/index"
     > .cabal/config'
-  - cabal --config-file=.cabal/config install -j4 --install-method=symlink
+  - cabal --config-file=.cabal/config install -j2 --install-method=symlink
     --installdir=/app/bin monomer-flatpak-example
   - find /app/cabal/ghc-* -mindepth 1 -not -path '*/monomer-flatpak-example*' -a -not
     -path '*/incoming' -delete
