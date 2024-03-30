@@ -80,7 +80,7 @@ modules:
   - mkdir .cabal
   - 'printf "store-dir: /app/cabal\nrepository local-repo\n  url: file+noindex://$PWD/index"
     > .cabal/config'
-  - cabal --config-file=.cabal/config install -j1 --install-method=symlink
+  - cabal --config-file=.cabal/config install -j2 --install-method=symlink
     --installdir=/app/bin monomer-flatpak-example
   - find /app/cabal/ghc-* -mindepth 1 -not -path '*/monomer-flatpak-example*' -a -not
     -path '*/incoming' -delete
@@ -1149,13 +1149,13 @@ modules:
     sha256: 63d1ad0221f40c67a0d9bfd9ea032743a4281f697ae71f8fa61608c0a3565ae4
     type: file
     url: https://hackage.haskell.org/package/monomer-hagrid-0.3.1.2/revision/0.cabal
-  - sha256: a51e624a05da7fb6bc9c605c4ba3566bb8b3d0cc87f2f7cd9a861e69b973e8c1
+  - sha256: 6d9647652b7ca4d9797776ca490a28b46970d30f35c828cae53c33614aaeb932
     type: file
-    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.15.3/monomer-flatpak-example-0.0.15.3.tar.gz
-  - dest-filename: monomer-flatpak-example-0.0.15.3.cabal
-    sha256: 5658ba2fcbce3f6017e6fad03eac3a3be26778028ab2f5814c14aeeaf49a6195
+    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.15.4/monomer-flatpak-example-0.0.15.4.tar.gz
+  - dest-filename: monomer-flatpak-example-0.0.15.4.cabal
+    sha256: 4062417e0e757f3d1af1950d589c2569d6538524bea4ce3dbaa18bd84fdd538b
     type: file
-    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.15.3/revision/0.cabal
+    url: https://hackage.haskell.org/package/monomer-flatpak-example-0.0.15.4/revision/0.cabal
 - name: install-desktop-files
   buildsystem: simple
   build-commands:
