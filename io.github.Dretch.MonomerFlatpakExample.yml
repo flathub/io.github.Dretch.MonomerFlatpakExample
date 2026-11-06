@@ -1,6 +1,6 @@
 app-id: io.github.Dretch.MonomerFlatpakExample
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: monomer-flatpak-example
 finish-args:
@@ -47,7 +47,6 @@ modules:
   - /bin/hpc
   - /bin/hsc2hs
   - /lib/libtinfo.so.5
-  - /lib/debug
   - /lib/ghc-9.6.6
   - /share/man
   - /share/doc/ghc-9.6.6
